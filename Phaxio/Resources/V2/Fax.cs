@@ -64,6 +64,9 @@ namespace Phaxio.Resources.V2
         [JsonProperty(PropertyName = "tags")]
         public Dictionary<string, string> Tags { get; set; }
 
+		[JsonProperty(PropertyName = "barcodes")]
+		public List<Barcode> Barcodes { get; set; }
+
         [JsonProperty(PropertyName = "error_type")]
         public string ErrorType { get; set; }
 
